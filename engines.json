@@ -157,20 +157,6 @@
     "_iconSourceURI": "https://www.worldcat.org/favicon.ico"
   },
   {
-    "_name": "TOC of Notes",
-    "_alias": "TOC of Notes",
-    "_description": "打开所有笔记的目录",
-    "_icon": "https://figurebed-iseex.oss-cn-hangzhou.aliyuncs.com/img/20201025110921.png",
-    "_hidden": false,
-    "_urlTemplate": "file:///Users/iseexuhs/Nutstore/Research/Notes",
-    "_urlParams": [],
-    "_urlNamespaces": {
-      "z": "http://www.zotero.org/namespaces/openSearch#",
-      "": "http://a9.com/-/spec/opensearch/1.1/"
-    },
-    "_iconSourceURI": "https://figurebed-iseex.oss-cn-hangzhou.aliyuncs.com/img/20201025110921.png"
-  },
-  {
     "_name": "N-Connected Papers",
     "_alias": "Connected Papers文献网络",
     "_description": "Connected Papers文献网络",
@@ -491,7 +477,7 @@
     "_alias": "SooPAT专利搜索",
     "_description": "SooPAT专利搜索",
     "_icon": "http://www.soopat.com/favicon.ico",
-    "_hidden": false,
+    "_hidden": true,
     "_urlTemplate": "http://www.soopat.com/Home/Result?SearchWord={z:title}&FMZL=Y&SYXX=Y&WGZL=Y&FMSQ=Y",
     "_urlParams": [],
     "_urlNamespaces": {
@@ -527,33 +513,5 @@
       "": "http://a9.com/-/spec/opensearch/1.1/"
     },
     "_iconSourceURI": "https://www.bing.com/sa/simg/favicon-2x.ico"
-  },
-  {
-    "_name": "文献互助",
-    "_alias": "文献互助",
-    "_description": "青柠学术文献互助QQ群",
-    "_icon": "https://iseex.github.io/images/qq.ico",
-    "_hidden": true,
-    "_urlTemplate": "https://jq.qq.com/?_wv=1027&k=5kAWTlU",
-    "_urlParams": [],
-    "_urlNamespaces": {
-      "z": "http://www.zotero.org/namespaces/openSearch#",
-      "": "http://a9.com/-/spec/opensearch/1.1/"
-    },
-    "_iconSourceURI": "https://iseex.github.io/images/qq.ico"
-  },
-  {
-    "_name": "Open Notes",
-    "_alias": "Open Notes",
-    "_description": "笔记路径放在Rights字段",
-    "_icon": "https://figurebed-iseex.oss-cn-hangzhou.aliyuncs.com/img/20201017133213.png",
-    "_hidden": true,
-    "_urlTemplate": "file:///{z:rights}",
-    "_urlParams": [],
-    "_urlNamespaces": {
-      "z": "http://www.zotero.org/namespaces/openSearch#",
-      "": "http://a9.com/-/spec/opensearch/1.1/"
-    },
-    "_iconSourceURI": "https://figurebed-iseex.oss-cn-hangzhou.aliyuncs.com/img/20201017133213.png"
   }
 ]
