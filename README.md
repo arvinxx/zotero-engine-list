@@ -1,9 +1,5 @@
 # Zotero Engine List 检索引擎清单
 
-启用引擎清单
-
-![](https://gw.alipayobjects.com/zos/antfincdn/XnJTWqQaeo/831a8c93-c2b5-4dfe-b7b6-6d306eda732a.png)
-
 ## 使用方式
 
 下载 [engine.json](https://raw.githubusercontent.com/arvinxx/zotero-enginelist/master/engines.json) 该引擎清单,放到 Zotero 库的 `/locate`下面。例如，我的 Zotero 路径为 `/Users/arvinxx/Zotero` ,那么把这个文件放到 `/Users/arvinxx/Zotero/locate` 目录下，然后重启 Zotero 即可。
@@ -30,6 +26,16 @@
 | 豆瓣电影               | 搜电影,个人用不到                                                    | 电影                             | ⛔️  |
 | Web of Science         | 没用过                                                               | 自然科学/社会科学/人文科学类论文 | ⛔️  |
 
+## 启用引擎清单
+
+### 图书
+
+![](https://gw.alipayobjects.com/zos/antfincdn/1RZF5Wkvjm/4fd6a5bc-9392-48cb-891f-206d308dee43.png)
+
+### 论文
+
+![](https://gw.alipayobjects.com/zos/antfincdn/8mopbkZqpN/62ebb9ac-266b-4571-8265-8ef3562f7d96.png)
+
 ## 奇技淫巧
 
 ### 配置文件软连接
@@ -45,3 +51,7 @@ ln -s /仓库路径/engines.json /Zotero库路径/locate/engines.json
 这样就可以实现仓库中更新配置后，只需重启 Zotero 即可。
 
 也可以用类似的方式配置文件链接到云盘，进而实现单配置文件的云端同步。
+
+## LICENSE
+
+[MIT](./LICENSE) ® Arvin Xu
