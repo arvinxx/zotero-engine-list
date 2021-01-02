@@ -1,12 +1,14 @@
-# Zotero Engine List 检索引擎清单
-
-## 使用方式
-
-下载 [engine.json](https://raw.githubusercontent.com/arvinxx/zotero-enginelist/master/engines.json) 该引擎清单,放到 Zotero 库的 `/locate`下面。例如，我的 Zotero 路径为 `/Users/arvinxx/Zotero` ,那么把这个文件放到 `/Users/arvinxx/Zotero/locate` 目录下，然后重启 Zotero 即可。
+# Zotero 检索引擎清单
 
 ## 简介
 
-✅ ：启用状态； ⛔️ ：禁用状态
+Zotero 检索引擎可以基于 Zotero 的元数据快速跳转检索。
+
+
+
+### 引擎简介
+
+
 
 | 检索引擎               | 简介                                                                 | 领域                             | 状态 |
 | ---------------------- | -------------------------------------------------------------------- | -------------------------------- | ---- |
@@ -26,7 +28,25 @@
 | 豆瓣电影               | 搜电影,个人用不到                                                    | 电影                             | ⛔️  |
 | Web of Science         | 没用过                                                               | 自然科学/社会科学/人文科学类论文 | ⛔️  |
 
-## 启用引擎清单
+✅ ：启用状态； ⛔️ ：禁用状态
+
+## 使用方式
+
+下载 [engine.json](https://raw.githubusercontent.com/arvinxx/zotero-enginelist/master/engines.json) 引擎清单，放到 Zotero 库的 `/locate`下面。例如，Zotero 路径为
+
+```
+/Users/arvinxx/Zotero
+```
+
+那么把这个文件放到以下目录，然后重启 Zotero 即可。
+
+```
+/Users/arvinxx/Zotero/locate
+```
+
+## 启用的引擎清单
+
+选中条目才可查看。
 
 ### 图书
 
