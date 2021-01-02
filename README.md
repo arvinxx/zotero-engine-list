@@ -4,6 +4,10 @@
 
 ![](https://gw.alipayobjects.com/zos/antfincdn/XnJTWqQaeo/831a8c93-c2b5-4dfe-b7b6-6d306eda732a.png)
 
+## 使用方式
+
+下载 [engine.json](https://raw.githubusercontent.com/arvinxx/zotero-enginelist/master/engines.json) 该引擎清单,放到 Zotero 库的 `/locate`下面。例如，我的 Zotero 路径为 `/Users/arvinxx/Zotero` ,那么把这个文件放到 `/Users/arvinxx/Zotero/locate` 目录下，然后重启 Zotero 即可。
+
 ## 简介
 
 | 检索引擎               | 简介                                                                 | 领域                             | 状态     |
