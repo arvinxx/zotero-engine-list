@@ -220,7 +220,7 @@
     "_alias": "WOS",
     "_description": "Web of Science Search",
     "_icon": "https://figurebed-iseex.oss-cn-hangzhou.aliyuncs.com/img/20201016231207.png",
-    "_hidden": false,
+    "_hidden": true,
     "_urlTemplate": "http://ws.isiknowledge.com/cps/openurl/service?url_ver=Z39.88-2004&{z:openURL}",
     "_urlParams": [],
     "_urlNamespaces": {
@@ -234,7 +234,7 @@
     "_alias": "WOS Citing Articles",
     "_description": "Web of Science Citing Articles Search",
     "_icon": "https://figurebed-iseex.oss-cn-hangzhou.aliyuncs.com/img/20201016231207.png",
-    "_hidden": false,
+    "_hidden": true,
     "_urlTemplate": "http://ws.isiknowledge.com/cps/openurl/service?url_ver=Z39.88-2004&svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&svc.citing=yes&{z:openURL}",
     "_urlParams": [],
     "_urlNamespaces": {
@@ -248,7 +248,7 @@
     "_alias": "WOS Related Articles",
     "_description": "Web of Science Related Articles Search",
     "_icon": "https://figurebed-iseex.oss-cn-hangzhou.aliyuncs.com/img/20201016231207.png",
-    "_hidden": false,
+    "_hidden": true,
     "_urlTemplate": "http://ws.isiknowledge.com/cps/openurl/service?url_ver=Z39.88-2004&svc_val_fmt=info:ofi/fmt:kev:mtx:sch_svc&svc.related=yes&{z:openURL}",
     "_urlParams": [],
     "_urlNamespaces": {
