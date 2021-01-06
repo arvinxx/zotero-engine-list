@@ -97,6 +97,20 @@
     "_iconSourceURI": "http://www.ucdrs.superlib.net/favicon.ico"
   },
   {
+    "_name": "R全国图书馆参考咨询联盟(ISBN)",
+    "_alias": "国内图书馆",
+    "_description": "全国图书馆参考咨询联盟",
+    "_icon": "http://www.ucdrs.superlib.net/favicon.ico",
+    "_hidden": false,
+    "_urlTemplate": "http://book.ucdrs.superlib.net/search?Field=all&channel=search&sw={z:ISBN}&ecode=utf-8",
+    "_urlParams": [],
+    "_urlNamespaces": {
+      "z": "http://www.zotero.org/namespaces/openSearch#",
+      "": "http://a9.com/-/spec/opensearch/1.1/"
+    },
+    "_iconSourceURI": "http://www.ucdrs.superlib.net/favicon.ico"
+  },
+  {
     "_name": "LibGen",
     "_alias": "LibGen",
     "_description": "Look up books on Library Genesis",
