@@ -459,34 +459,6 @@
     "_iconSourceURI": "http://www.proquest.com/favicon.ico"
   },
   {
-    "_name": "Zlibrary Book",
-    "_alias": "Zlibrary Book",
-    "_description": "Zlibrary Book",
-    "_icon": "https://z-lib.org/favicon.ico",
-    "_hidden": false,
-    "_urlTemplate": "https://b-ok.cc/s/{z:title}",
-    "_urlParams": [],
-    "_urlNamespaces": {
-      "z": "http://www.zotero.org/namespaces/openSearch#",
-      "": "http://a9.com/-/spec/opensearch/1.1/"
-    },
-    "_iconSourceURI": "https://z-lib.org/favicon.ico"
-  },
-  {
-    "_name": "Zlibrary Articles",
-    "_alias": "Zlibrary Articles",
-    "_description": "Zlibrary Articles",
-    "_icon": "https://z-lib.org/favicon.ico",
-    "_hidden": false,
-    "_urlTemplate": "https://booksc.xyz/s/{z:title}",
-    "_urlParams": [],
-    "_urlNamespaces": {
-      "z": "http://www.zotero.org/namespaces/openSearch#",
-      "": "http://a9.com/-/spec/opensearch/1.1/"
-    },
-    "_iconSourceURI": "https://z-lib.org/favicon.ico"
-  },
-  {
     "_name": "SooPAT专利搜索",
     "_alias": "SooPAT专利搜索",
     "_description": "SooPAT专利搜索",
@@ -499,33 +471,5 @@
       "": "http://a9.com/-/spec/opensearch/1.1/"
     },
     "_iconSourceURI": "http://www.soopat.com/favicon.ico"
-  },
-  {
-    "_name": "万方搜索",
-    "_alias": "万方搜索",
-    "_description": "万方搜索",
-    "_icon": "http://www.wanfangdata.com.cn/favicon.ico",
-    "_hidden": false,
-    "_urlTemplate": "http://www.wanfangdata.com.cn/search/searchList.do?searchType=all&showType=&pageSize=&searchWord={z:title}&isTriggerTag=",
-    "_urlParams": [],
-    "_urlNamespaces": {
-      "z": "http://www.zotero.org/namespaces/openSearch#",
-      "": "http://a9.com/-/spec/opensearch/1.1/"
-    },
-    "_iconSourceURI": "http://www.wanfangdata.com.cn/favicon.ico"
-  },
-  {
-    "_name": "Bing学术",
-    "_alias": "Bing学术",
-    "_description": "Bing学术",
-    "_icon": "https://www.bing.com/sa/simg/favicon-2x.ico",
-    "_hidden": false,
-    "_urlTemplate": "https://www.bing.com/academic/search?q={z:title}",
-    "_urlParams": [],
-    "_urlNamespaces": {
-      "z": "http://www.zotero.org/namespaces/openSearch#",
-      "": "http://a9.com/-/spec/opensearch/1.1/"
-    },
-    "_iconSourceURI": "https://www.bing.com/sa/simg/favicon-2x.ico"
   }
 ]
