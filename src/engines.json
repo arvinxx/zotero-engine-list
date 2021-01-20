@@ -277,7 +277,7 @@
     "_description": "SciHub Lookup Lookup",
     "_icon": "https://figurebed-iseex.oss-cn-hangzhou.aliyuncs.com/img/20201016200912.png",
     "_hidden": false,
-    "_urlTemplate": "http://sci-hub.tw/{z:DOI}",
+    "_urlTemplate": "http://sci-hub.se/{z:DOI}",
     "_urlParams": [],
     "_urlNamespaces": {
       "z": "http://www.zotero.org/namespaces/openSearch#"
@@ -290,7 +290,7 @@
     "_description": "SciHub URL Lookup",
     "_icon": "https://figurebed-iseex.oss-cn-hangzhou.aliyuncs.com/img/20201016200912.png",
     "_hidden": false,
-    "_urlTemplate": "http://sci-hub.tw/{z:url}",
+    "_urlTemplate": "http://sci-hub.se/{z:url}",
     "_urlParams": [],
     "_urlNamespaces": {
       "z": "http://www.zotero.org/namespaces/openSearch#"
