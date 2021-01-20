@@ -58,7 +58,7 @@ Zotero 检索引擎可以基于 Zotero 的元数据快速跳转检索。
 
 完成放置后，重启 Zotero 即可。
 
-![](https://gw.alipayobjects.com/zos/antfincdn/%24zkLytwaI%24/25c32391-88b6-422c-9725-28b615cbae49.png)
+![](https://gw.alipayobjects.com/zos/antfincdn/qQjyxpFR6L/e07f83e8-3333-44a5-886e-4bc341ecec7d.png)
 
 ## 启用的引擎清单
 
