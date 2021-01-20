@@ -1,7 +1,7 @@
 {
   "name": "zotero-engine-list",
-  "version": "0.1.4",
-  "description": "a chrome plugin to enhance yuque",
+  "version": "1.0.1",
+  "description": "a zotero engine list",
   "private": true,
   "author": "Arvin Xu<arvinx@foxmail.com>",
   "license": "MIT",
@@ -20,7 +20,6 @@
   },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/exec": "^5.0.0",
     "@semantic-release/git": "^9.0.0",
     "@semantic-release/release-notes-generator": "^9.0.1",
     "@commitlint/cli": "^11.0.0",
