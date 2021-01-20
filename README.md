@@ -39,7 +39,11 @@ Zotero 检索引擎可以基于 Zotero 的元数据快速跳转检索。
 
 ### 下载
 
-点击右侧 [Releases](https://github.com/arvinxx/zotero-engine-list/releases) 最新版,然后点击 `engines.json` 进行下载。
+方法一：直接点击 [Code] -> [Download ZIP] 下载整个压缩包。解压后，在 `src` 文件夹下找到 `engines.json`  文件。
+
+![](https://gw.alipayobjects.com/zos/antfincdn/b393CnzWTM/81bce7b3-8980-48f5-82a5-00d100fe4e47.png)
+
+方法二：点击右侧 [Releases](https://github.com/arvinxx/zotero-engine-list/releases) 最新版,然后点击 `engines.json` 进行下载。
 
 ![](https://gw.alipayobjects.com/zos/antfincdn/ZvHNOnAe9j/90570276-9854-4727-8401-07c14a4931fa.png)
 
@@ -49,7 +53,7 @@ Zotero 检索引擎可以基于 Zotero 的元数据快速跳转检索。
 
 ### 安装
 
-下载完成该引擎文件后，需要将该文件放到 Zotero 库的 `/locate`下面，方可完成安装。
+下载完成该引擎文件后，需要将该文件放到 Zotero 库的 locate 目录下面，方可完成安装。
 例如，如果 Zotero 路径为 `/Users/arvinxx/Zotero`，那么把上述文件放到以下目录：
 
 ```
