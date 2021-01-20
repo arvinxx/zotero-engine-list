@@ -1,0 +1,41 @@
+{
+  "plugins": [
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "config": "conventional-changelog-gitmoji-config"
+      }
+    ],
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        "config": "conventional-changelog-gitmoji-config"
+      }
+    ],
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md",
+        "changelogTitle": "# Zotero Engine List 更新日志"
+      }
+    ],
+    [
+      "@semantic-release/github",
+      {
+        "assets": [
+          {
+            "path": "src/engines.json",
+            "label": "engines.json"
+          }
+        ]
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["CHANGELOG.md", "package.json"],
+        "message": ":bookmark: chore(release): v${nextRelease.version} [skip ci]\n\nhttps://github.com/arvinxx/zotero-enginelist/releases/tag/${nextRelease.gitTag}"
+      }
+    ]
+  ]
+}

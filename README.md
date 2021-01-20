@@ -26,7 +26,7 @@ Zotero 检索引擎可以基于 Zotero 的元数据快速跳转检索。
 | 豆瓣读书               | 一般用于录入书籍元数据                                                                 | 中文书籍                         | ✅   |
 | 全国图书馆参考咨询联盟 | 查中文书是否有 PDF 的权威网站                                                          | 中文书籍                         | ✅   |
 | World Cat              | 世界最大的图书馆目录网站,豆瓣上查不到的 ISBN 这上面都能查到                            | 通用书籍                         | ✅   |
-| iJournal 爱期刊        | 期刊影响因子检索                                                                       | 论文                         | ✅   |
+| iJournal 爱期刊        | 期刊影响因子检索                                                                       | 论文                             | ✅   |
 | CNKI                   | 中文论文的检索网,但估计以后是用不到了                                                  | 国内论文                         | ✅   |
 | 豆瓣电影               | 搜电影,个人用不到                                                                      | 电影                             | ⛔️  |
 | Web of Science         | 没用过                                                                                 | 自然科学/社会科学/人文科学类论文 | ⛔️  |
@@ -72,6 +72,7 @@ ln -s /仓库路径/src/engines.json /Zotero库路径/locate/engines.json
 ```
 
 例如:
+
 ```shell
 ls -s /Users/arvinxx/CodeProjects/zotero-engine-list/src/engines.json /Users/arvinxx/Zotero/locate/engines.json
 ```
