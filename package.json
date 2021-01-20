@@ -14,9 +14,7 @@
     "url": "https://github.com/arvinxx/zotero-enginelist/issues"
   },
   "scripts": {
-    "changelog": "conventional-changelog -p gitmoji-config -i CHANGELOG.md -s -r 0",
-    "release": "semantic-release",
-    "prettier": "prettier -c --write \"**/**\""
+    "release": "semantic-release"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
@@ -24,7 +22,6 @@
     "@semantic-release/release-notes-generator": "^9.0.1",
     "@commitlint/cli": "^11.0.0",
     "commitlint-config-gitmoji": "^2.1.2",
-    "conventional-changelog-cli": "^2.1.1",
     "conventional-changelog-gitmoji-config": "^1.1.1",
     "husky": "^4.3.8",
     "semantic-release": "^17.3.3"
