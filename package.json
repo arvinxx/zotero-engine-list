@@ -1,0 +1,33 @@
+{
+  "name": "zotero-engine-list",
+  "version": "0.1.4",
+  "description": "a chrome plugin to enhance yuque",
+  "private": true,
+  "author": "Arvin Xu<arvinx@foxmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/arvinxx/zotero-enginelist#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arvinxx/zotero-enginelist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arvinxx/zotero-enginelist/issues"
+  },
+  "scripts": {
+    "changelog": "conventional-changelog -p gitmoji-config -i CHANGELOG.md -s -r 0",
+    "release": "semantic-release",
+    "prettier": "prettier -c --write \"**/**\""
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/exec": "^5.0.0",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/release-notes-generator": "^9.0.1",
+    "@commitlint/cli": "^11.0.0",
+    "commitlint-config-gitmoji": "^2.1.2",
+    "conventional-changelog-cli": "^2.1.1",
+    "conventional-changelog-gitmoji-config": "^1.1.1",
+    "husky": "^4.3.8",
+    "semantic-release": "^17.3.3"
+  }
+}
