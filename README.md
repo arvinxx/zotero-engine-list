@@ -5,6 +5,8 @@
 [version-url]: https://img.shields.io/github/v/release/arvinxx/zotero-enginelist
 [license-url]: https://img.shields.io/github/license/arvinxx/zotero-enginelist
 
+一份实用的 Zotero 检索引擎，如果对你有帮助，不妨点个 Star 哦~😉
+
 ## 简介
 
 Zotero 检索引擎可以基于 Zotero 的元数据快速跳转检索。
