@@ -24,18 +24,12 @@ module.exports = {
     ],
     '@semantic-release/npm', //如果是npm包会自动更新版本号并发布
     [
-      '@semantic-release/exec',
-      {
-        prepareCmd: 'yarn zip',
-      },
-    ],
-    [
       '@semantic-release/github',
       {
         assets: [
           {
-            path: 'dist-zip/power-yuque.zip',
-            label: 'power-yuque.${nextRelease.gitTag}.zip',
+            path: 'src/engines.json',
+            label: 'engines.json',
           },
         ],
       },
