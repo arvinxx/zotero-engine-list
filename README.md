@@ -1,5 +1,10 @@
 # Zotero 检索引擎清单
 
+![][version-url] [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) ![][license-url]
+
+[version-url]: https://img.shields.io/github/v/release/arvinxx/zotero-enginelist
+[license-url]: https://img.shields.io/github/license/arvinxx/zotero-enginelist
+
 ## 简介
 
 Zotero 检索引擎可以基于 Zotero 的元数据快速跳转检索。
@@ -63,7 +68,12 @@ Zotero 检索引擎可以基于 Zotero 的元数据快速跳转检索。
 利用软连接将仓库中的 `engine.json` 文件链接到 Zotero 库下：
 
 ```
-ln -s /仓库路径/engines.json /Zotero库路径/locate/engines.json
+ln -s /仓库路径/src/engines.json /Zotero库路径/locate/engines.json
+```
+
+例如:
+```shell
+ls -s /Users/arvinxx/CodeProjects/zotero-engine-list/src/engines.json /Users/arvinxx/Zotero/locate/engines.json
 ```
 
 这样就可以实现仓库中更新配置后，只需重启 Zotero 即可。
