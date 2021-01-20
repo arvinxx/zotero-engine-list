@@ -21,7 +21,7 @@ Zotero 检索引擎可以基于 Zotero 的元数据快速跳转检索。
 | Semantic Scholar       | 一个基于 AI 构建的论文检索工具,用来找关键论文挺方便                                    | 通用论文                         | ✅   |
 | CrossRef               | DOI 的综合检索网站,只要有 DOI,用这个检索一般都能找到源网站                             | 通用论文                         | ✅   |
 | ProQuest               | 收录了全球各个学科的英文硕士和博士学位论文，并主要提供 1997 年之后学位论文的全文下载。 | 通用论文(硕博)                   | ✅ ️ |
-| Sci-Hub URL            | Sci-Hub 就不介绍了                                                                     | 通用论文                         | ✅   |
+| [Sci-Hub][sci-hub]     | 论文免费下载                                                                       | 通用论文                         | ✅   |
 | ACM                    | 计算机 HCI 领域论文检索专用                                                            | 计算机/HCI 论文                  | ✅   |
 | Connected Papers       | 这个比较有意思,可以根据一篇论文查询其引用关系,论文综述检索时比较有用                   | 文献综述                         | ✅   |
 | LibGen                 | 查英文 PDF 的唯一权威                                                                  | 英文书籍                         | ✅   |
@@ -33,13 +33,15 @@ Zotero 检索引擎可以基于 Zotero 的元数据快速跳转检索。
 | 豆瓣电影               | 搜电影,个人用不到                                                                      | 电影                             | ⛔️  |
 | Web of Science         | 没用过                                                                                 | 自然科学/社会科学/人文科学类论文 | ⛔️  |
 
+[sci-hub]: https://www.yuque.com/arvinxx/research/sci-hub
+
 ✅ ：启用状态； ⛔️ ：禁用状态
 
 ## 使用方法
 
 ### 下载
 
-方法一：直接点击 [Code] -> [Download ZIP] 下载整个压缩包。解压后，在 `src` 文件夹下找到 `engines.json`  文件。
+方法一：直接点击 [Code] -> [Download ZIP] 下载整个压缩包。解压后，在 `src` 文件夹下找到 `engines.json` 文件。
 
 ![](https://gw.alipayobjects.com/zos/antfincdn/b393CnzWTM/81bce7b3-8980-48f5-82a5-00d100fe4e47.png)
 
