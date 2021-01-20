@@ -33,23 +33,34 @@ Zotero 检索引擎可以基于 Zotero 的元数据快速跳转检索。
 
 ✅ ：启用状态； ⛔️ ：禁用状态
 
-## 使用方式
+## 使用方法
 
-下载 [engine.json](https://raw.githubusercontent.com/arvinxx/zotero-enginelist/master/engines.json) 引擎清单，放到 Zotero 库的 `/locate`下面。例如，Zotero 路径为
+### 下载
 
-```
-/Users/arvinxx/Zotero
-```
+点击右侧 [Releases](https://github.com/arvinxx/zotero-engine-list/releases) 最新版,然后点击 `engines.json` 进行下载。
 
-那么把这个文件放到以下目录，然后重启 Zotero 即可。
+![](https://gw.alipayobjects.com/zos/antfincdn/ZvHNOnAe9j/90570276-9854-4727-8401-07c14a4931fa.png)
+
+## 手动创建
+
+如果因为网络问题无法下载，可以手动创建一个 `engines.json` 文本文件，然后将 [src/engines.json](https://github.com/arvinxx/zotero-engine-list/blob/master/src/engines.json) 中所有文本内容复制保存即可。
+
+### 安装
+
+下载完成该引擎文件后，需要将该文件放到 Zotero 库的 `/locate`下面，方可完成安装。
+例如，如果 Zotero 路径为 `/Users/arvinxx/Zotero`，那么把上述文件放到以下目录：
 
 ```
 /Users/arvinxx/Zotero/locate
 ```
 
+完成放置后，重启 Zotero 即可。
+
+![](https://gw.alipayobjects.com/zos/antfincdn/%24zkLytwaI%24/25c32391-88b6-422c-9725-28b615cbae49.png)
+
 ## 启用的引擎清单
 
-选中条目才可查看。
+本引擎清单所启用的引擎如下：（只有选中条目后方可查看）
 
 ### 图书
 
@@ -67,7 +78,7 @@ Zotero 检索引擎可以基于 Zotero 的元数据快速跳转检索。
 
 利用软连接将仓库中的 `engine.json` 文件链接到 Zotero 库下：
 
-```
+```shell
 ln -s /仓库路径/src/engines.json /Zotero库路径/locate/engines.json
 ```
 
@@ -80,6 +91,10 @@ ls -s /Users/arvinxx/CodeProjects/zotero-engine-list/src/engines.json /Users/arv
 这样就可以实现仓库中更新配置后，只需重启 Zotero 即可。
 
 也可以用类似的方式配置文件链接到云盘，进而实现单配置文件的云端同步。
+
+### 如何添加新引擎
+
+请移步 [创建 Zotero 引擎](https://www.yuque.com/arvinxx/research/create-new-engine)
 
 ## LICENSE
 
