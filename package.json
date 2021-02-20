@@ -1,6 +1,6 @@
 {
   "name": "zotero-engine-list",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "a zotero engine list",
   "private": true,
   "author": "Arvin Xu<arvinx@foxmail.com>",

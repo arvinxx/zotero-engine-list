@@ -1,3 +1,12 @@
+# Changelog
+
+## [1.1.2](https://github.com/arvinxx/zotero-enginelist/compare/v1.1.1...v1.1.2) (2021-02-20)
+
+
+### 🐛 Bug Fixes
+
+* 修正标点符号 ([ec5704c](https://github.com/arvinxx/zotero-enginelist/commit/ec5704c))
+
 # Zotero Engine List 更新日志
 
 ## [1.1.1](https://github.com/arvinxx/zotero-enginelist/compare/v1.1.0...v1.1.1) (2021-01-20)
