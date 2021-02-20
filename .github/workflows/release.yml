@@ -10,25 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v2.1.2
+      - name: Release
+        uses: cycjimmy/semantic-release-action@v2
         with:
-          node-version: '14'
-
-      - name: Cache multiple paths
-        uses: actions/cache@v2
-        with:
-          path: |
-            ~/.npm
-            ~/cache
-            !~/cache/exclude
-            **/node_modules
-          key: npm-${{ runner.os }}-${{ hashFiles('package.json') }}
-
-      - name: install
-        run: yarn
-
-      - name: release
-        run: yarn release
+          extra_plugins: semantic-release-config-gitmoji-module
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
