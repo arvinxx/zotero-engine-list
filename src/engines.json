@@ -72,15 +72,29 @@
     "_name": "CNKI",
     "_alias": "CNKI",
     "_description": "CNKI",
-    "_icon": "http://kns8.cnki.net/favicon.ico",
+    "_icon": "http://kns.cnki.net/favicon.ico",
     "_hidden": false,
-    "_urlTemplate": "http://kns8.cnki.net/kns/DefaultResult/Index?dbcode=SCDB&kw={z:title}&korder=SU",
+    "_urlTemplate": "http://kns.cnki.net/kns8/DefaultResult/Index?dbcode=SCDB&kw={z:title}&korder=SU",
     "_urlParams": [],
     "_urlNamespaces": {
       "z": "http://www.zotero.org/namespaces/openSearch#",
       "": "http://a9.com/-/spec/opensearch/1.1/"
     },
-    "_iconSourceURI": "http://kns8.cnki.net/favicon.ico"
+    "_iconSourceURI": "http://kns.cnki.net/favicon.ico"
+  },
+  {
+    "_name": "CNKI海外版",
+    "_alias": "CNKI",
+    "_description": "海外版可以下PDF而非CAJ",
+    "_icon": "http://kns.cnki.net/favicon.ico",
+    "_hidden": false,
+    "_urlTemplate": "https://chn.oversea.cnki.net/kns8/DefaultResult/Index?dbcode=SCDB&kw={z:title}&korder=SU",
+    "_urlParams": [],
+    "_urlNamespaces": {
+      "z": "http://www.zotero.org/namespaces/openSearch#",
+      "": "http://a9.com/-/spec/opensearch/1.1/"
+    },
+    "_iconSourceURI": "http://kns.cnki.net/favicon.ico"
   },
   {
     "_name": "R全国图书馆参考咨询联盟",
